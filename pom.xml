@@ -116,6 +116,7 @@
     <license.skip>true</license.skip>
     <findbugs.xmlOutput>true</findbugs.xmlOutput>
     <findbugs.failOnError>false</findbugs.failOnError>
+    <checkstyle.version>6.15</checkstyle.version>
     <dependency.check.failBuildOnCVSS>8</dependency.check.failBuildOnCVSS>
     <dependency.check.showSummary>true</dependency.check.showSummary>
     <dependency.check.whitelist>${project.basedir}/../dependency-check-whitelist.xml</dependency.check.whitelist>
@@ -403,7 +404,7 @@
             <dependency>
               <groupId>com.puppycrawl.tools</groupId>
               <artifactId>checkstyle</artifactId>
-              <version>6.15</version>
+              <version>${checkstyle.version}</version>
             </dependency>
           </dependencies>
           <executions>
