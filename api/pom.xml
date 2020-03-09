@@ -56,6 +56,9 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
+        <configuration>
+          <configLocation>codestyle-config/src/main/resources/apex_checks.xml</configLocation>
+        </configuration>
       </plugin>
     </plugins>
   </build>
